@@ -1,0 +1,155 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  border: solid 2px gray;
+}
+.head {
+  font-family: 'bree serif';
+  text-align: center;
+  margin-top: 16px;
+}
+.backGroundContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 36vh;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .backGroundContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    height: 66vh;
+    width: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.insideBackGroundImage {
+  background-color: white;
+  border-radius: 40px;
+  height: 70px;
+  width: 70px;
+}
+@media (min-width: 768px) {
+  .insideBackGroundImage {
+    background-color: white;
+    border-radius: 90px;
+    height: 120px;
+    width: 120px;
+  }
+}
+.heading {
+  color: #00d9f5;
+  font-family: 'roboto';
+  font-size: 14px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .heading {
+    color: #00d9f5;
+    font-family: 'roboto';
+    font-size: 24px;
+    text-align: center;
+  }
+}
+.Description1 {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  .Description1 {
+    font-family: 'roboto';
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    margin-right: 16px;
+  }
+}
+.Description {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.image {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+.pauseContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.bothContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .bothContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.head1 {
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: 600;
+  margin-top: 20px;
+}
+.symbol {
+  font-size: 38px;
+  font-weight: 600;
+}
+.button1 {
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 06px;
+  background-color: #00d9f5;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 06px;
+  background-color: transparent;
+  font-weight: 600;
+  color: black;
+  font-size: 30px;
+}
+.lastContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tharun {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
